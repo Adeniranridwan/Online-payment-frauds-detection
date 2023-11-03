@@ -8,11 +8,13 @@ Goal
 The study aims to use analytics, and machine learning algorithms such as Decision Tree (DT), Random Forest (RF), Naive Bayes (NB) and Logistic Regression (LR) to train,test, find trends and anomalies that point to fraudulent conduct, helping financial institutions, companies, and regulatory authorities identify and reduce financial transaction fraud.
 
 **Dataset**
+
 The Online payments big dataset was contributed in kaggle by Rupak Bob Roy. It captures different types of transaction routes, each of which can be used to carry out fraud activity (CASH OUT, PAYMENT, CASH IN, TRANSFER, and DEBIT). The dataset also consists of other relevant features like hours of transactions, the account balance of the transaction initiator and recipient before and after the transaction, and many more features that are informative for analysis and fraud detection models. Moreover, The dataset is made up of 6,362,620 rows and 11 columns. Fraudulent transactions are recorded in 8213 rows which is 0.00046% of the dataset and 6,354,407 are non-fraudulent which comprises 0.99954% of the dataset. The distribution ratio of the transactions indicates class imbalance.
 
 **Objectives**
 
 **Data Preprocessing**
+
 Before conducting further analysis, the online payment transaction dataset will be subjected to preprocessing. Data Preprocessing encompasses different processes like data cleaning, data transformation, and preparing raw data for proper modeling.
 To start with, the data quality and tidiness will be observed. Afterward, misspelled words, null and missing values will be checked for, if anyone is found, it will be dropped, corrected, and replaced by extrapolation where necessary. The data type of each feature will be observed and corrected for better data representation. Moreover, Data normalization and scaling will be carried out to evaluate its effect of the model. 
 **Data visualization**
@@ -28,10 +30,11 @@ The feature selection techniques including SelectKbest, Boruta feature selection
 The Online payment dataset contains highly imbalanced samples which constitute 0.00046% of fraudulent cases and 0.99954% of non fradulent cases. This problem leads to bias during training with the model giving more focus on the majority class. To deal with this, the Synthetic Minority Oversampling Technique (SMOTE) oversampling technique will be implemented.  The SMOTE will help to generate synthetic samples which are added to the original dataset to increase the number of samples in the minority class. This will result in a balanced distribution between the classes. Therefore, the model will be able to train well without bias. 
 **Model Building:** The datasets were trained on five ML models which are logistic regression, decision tree, random forest, naive Bayes, and support vector machine. This was done without prior application of the feature selection technique to check the performance of the models. The results in figure 4.19 show that Random Forest performed much better with 99.98% accuracy and 0.98 AUC while the naive bayes have the least performance with 97.17% accuracy and 0.83 AUC.
 
-• **	Model Evaluation:** Rigorously evaluate model performance using appropriate metrics. Through meticulous evaluation, select the most effective and precise predictive model.
-•	Interpretability: Unearth the influential factors that shape house prices. Interpret the model results to gain valuable insights into the dynamics of the real estate market.
-•	Business Impact: Translate model insights into actionable strategies that can transform Wazobia Real Estate's pricing tactics and enhance their competitive edge.
-Installation
+ **Model Evaluation:** Rigorously evaluate model performance using appropriate metrics. Through meticulous evaluation, select the most effective and precise predictive model.
+**Interpretability:** Unearth the influential factors that shape house prices. Interpret the model results to gain valuable insights into the dynamics of the real estate market.
+**Business Impact:** Translate model insights into actionable strategies that can transform Wazobia Real Estate's pricing tactics and enhance their competitive edge.
+
+**Installation**
 -	Run the Google Collaboratory
 
 **Findings and Limitations**
