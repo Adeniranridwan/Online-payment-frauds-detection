@@ -17,6 +17,7 @@ The Online payments big dataset was contributed in kaggle by Rupak Bob Roy. It c
 
 Before conducting further analysis, the online payment transaction dataset will be subjected to preprocessing. Data Preprocessing encompasses different processes like data cleaning, data transformation, and preparing raw data for proper modeling.
 To start with, the data quality and tidiness will be observed. Afterward, misspelled words, null and missing values will be checked for, if anyone is found, it will be dropped, corrected, and replaced by extrapolation where necessary. The data type of each feature will be observed and corrected for better data representation. Moreover, Data normalization and scaling will be carried out to evaluate its effect of the model. 
+
 **Data visualization**
 In this section, data visualization will be implemented to showcase various insights and statistics from the dataset.  Visualizations of different types will be grouped into segments. Univariate, Bivariate, and Multivariate exploration will demonstrate different plots and charts like doughnuts pie charts, bar charts, distribution plots, box plot, line plots, correlation maps, and histograms. This will serve as a virtual representation of the relationship and patterns between the Features. Python libraries for visualization will include: Matplotlib, plotly, Seaborn, and pandas.
 **Feature Engineering**
