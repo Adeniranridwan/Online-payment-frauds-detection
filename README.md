@@ -20,8 +20,10 @@ To start with, the data quality and tidiness will be observed. Afterward, misspe
 
 **Data visualization**
 In this section, data visualization will be implemented to showcase various insights and statistics from the dataset.  Visualizations of different types will be grouped into segments. Univariate, Bivariate, and Multivariate exploration will demonstrate different plots and charts like doughnuts pie charts, bar charts, distribution plots, box plot, line plots, correlation maps, and histograms. This will serve as a virtual representation of the relationship and patterns between the Features. Python libraries for visualization will include: Matplotlib, plotly, Seaborn, and pandas.
+
 **Feature Engineering**
 In an attempt to feed the model with the right representation of the underlying data for easy learning, Feature engineering will be performed.  New features will be created from the existing features in the dataset. Some of these new features may include hour of the day, day of the week, amount to oldbalanceOrg, amount to oldbalanceDest, originator transaction freq, recipient_transaction_freq, originator balance change, and destination balance change. These features will allow the model to capture the nonlinear relationship between variables, hence, the model will be able to learn more patterns in the data.
+
 **Feature Selection**
 Given the number of variables in the dataset after feature engineering, it's imperative to select those that best predict the dependent variable. These sections help to check the effect of feature selection on the models’ performance. Furthermore, answers the research question of which feature selection has the most impact on the model performance.
 The feature selection techniques including SelectKbest, Boruta feature selection, and recursive feature elimination were used respectively to select the best subset of features in order of importance. The subsets of the dataset obtained were used on the models.
